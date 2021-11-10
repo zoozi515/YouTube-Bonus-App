@@ -77,7 +77,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onRestoreInstanceState(savedInstanceState: Bundle) {
         super.onRestoreInstanceState(savedInstanceState)
-
         currentVideo = savedInstanceState.getInt("currentVideo", 0)
         timeStamp = savedInstanceState.getFloat("timeStamp", 0f)
     }

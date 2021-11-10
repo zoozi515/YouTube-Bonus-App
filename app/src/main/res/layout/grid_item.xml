@@ -17,10 +17,11 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:padding="12dp"
             android:layout_margin="8dp"
             android:text="Button"
+            android:textSize="10sp"
             android:textStyle="bold"
             android:id="@+id/btVideo"/>
 
